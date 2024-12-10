@@ -1,0 +1,51 @@
+export const ProjectItems = [
+    {
+        id: crypto.randomUUID(),
+        title: "Develop API",
+        description: "Develop API for client meeting",
+        category: "to-do",
+        dueDate: new Date("2022-08-05"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Content Writer Content Writer Content Writer",
+        description: "Write Content for client meeting",
+        category: "to-do",
+        dueDate: new Date("2022-05-05"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Deploy to VPS",
+        description: "Deploy to VPS befor client meeting",
+        category: "to-do",
+        dueDate: new Date("2022-10-05"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Content Writing",
+        description: "Writing Content for client meeting",
+        category: "in-progress",
+        dueDate: new Date("2022-01-05"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Content Written",
+        description: "Content Written for client meeting",
+        category: "completed",
+        dueDate: new Date("2021-12-05"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Deployed to Server",
+        description: "Deployed to Server for final Release",
+        category: "completed",
+        dueDate: new Date("2021-12-31"),
+    },
+    {
+        id: crypto.randomUUID(),
+        title: "Development Revision",
+        description: "Modification for the final Revision",
+        category: "revise",
+        dueDate: new Date("2024-01-10"),
+    },
+];
